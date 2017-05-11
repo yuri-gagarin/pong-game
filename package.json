@@ -1,11 +1,23 @@
 {
   "name": "pong-game",
   "version": "1.0.0",
-  "description": "javascript pong game with electron",
+  "description": "pong with electron",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri-gagarin/pong-game.git"
+  },
   "author": "Yuriy Ivanov",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuri-gagarin/pong-game/issues"
+  },
+  "homepage": "https://github.com/yuri-gagarin/pong-game#readme",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.6.7-oops.1"
+  }
 }
