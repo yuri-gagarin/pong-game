@@ -1,0 +1,11 @@
+{
+  "name": "pong-game",
+  "version": "1.0.0",
+  "description": "javascript pong game with electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuriy Ivanov",
+  "license": "ISC"
+}
